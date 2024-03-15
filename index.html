@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+
+        }
+        nav{
+            height: 100px;
+            width: 100%;
+            background-color: blue;
+        }
+        section{
+            min-height: 800px;
+            padding: 10px;
+
+        }
+
+        #presentation{
+            background-color: red;
+        }
+        #presentation img{
+            height: 400px;
+        }
+        #skills{
+            background-color: yellow;
+        }
+        .skill-item{
+            height: 300px;
+            width: 100%;
+            background-color: red;
+            margin-bottom: 10px;
+            padding-top: 10px;
+            padding-left: 10px;
+            /* padding: 1cap; */
+            /* padding: 10px; */
+
+        }
+        .skill-item img{
+            height: 70px;
+            width: 70px;
+            background-color: white;
+            border-radius: 10px;
+        }
+        .skill-item h2{
+            font-size: 30px;
+        }
+        .skill-item p{
+            font-size: 20px;
+            max-width: 90%;
+        }
+
+        #aboutme{
+            background-color: green;
+        }
+        #aboutme img{
+            height: 600px;
+        }
+        #myportfolio{
+            background-color: pink;
+        }
+        #testimonials{
+            /* background-color: blue; */
+        }
+        .temoin-item{
+            border: solid blue 1px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        .temoin-item .description{
+            font-size: 20px;
+            line-height: 32px;
+        }
+        
+        .temoin-item .stars{
+            height: 28px;
+        }
+        .person-div{
+            display: flex;
+            align-items: center;
+            /* justify-content: ; */
+        }
+        .person-div img{
+            width: 70px;
+            height: 70px;
+            margin-right: 20px;
+        }
+        .person-name{
+            font-weight: bold;
+            font-size: 20px;
+        }
+        #contact{
+            /* background-color: black; */
+        }
+
+        .input-div{
+            display: flex;
+            flex-direction: column;
+        }
+        .input-div input,.input-div select{
+            background-color: white;
+            border: 1px purple solid;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            height: 42px;
+            border-radius: 5px;
+        }
+        .input-div textarea{
+            border: 1px purple solid;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+
+        }
+        /* .input-div select{
+            border: 1px purple solid;
+            margin-top: 10px;
+            height: 42px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            background-color: white;
+        }
+
+         */
+
+    </style>
+</head>
+<body>
+    <nav></nav>
+    <section id="presentation">
+        <p>Salut je suis Amadou</p>
+        <h2>Je developpe des applications</h2>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa impedit mollitia, modi dicta doloremque voluptates ipsa dignissimos, suscipit neque temporibus exercitationem tempora, accusantium consequuntur dolore debitis officiis magni ad delectus.</p>
+        <button>Contactez moi</button>
+        <img src="https://assets-global.website-files.com/62f375fa349867308a2e90dc/63030ec6b0ee91d6920711d1_Header%20Image-p-1080.webp" alt="">
+    </section>
+    <section id="skills">
+        <p>Mes compétences</p>
+        <h2>Mon expertise</h2>
+        <div class="skill-item">
+            <img src="https://assets-global.website-files.com/62f375fa349867308a2e90dc/63030ef9dac694ad05cefefa_tag%201.webp" alt="">
+            <h2>Branding & Logo</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error nam quaerat similique eaque quis perferendis ab facere ratione quo, facilis vitae ducimus eius dolor incidunt ullam accusantium blanditiis veritatis et!</p>
+        </div>
+        <div class="skill-item">
+            <img src="https://assets-global.website-files.com/62f375fa349867308a2e90dc/63030ef9dac694ad05cefefa_tag%201.webp" alt="">
+            <h2>Branding & Logo</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error nam quaerat similique eaque quis perferendis ab facere ratione quo, facilis vitae ducimus eius dolor incidunt ullam accusantium blanditiis veritatis et!</p>
+        </div>
+        <div class="skill-item">
+            <img src="https://assets-global.website-files.com/62f375fa349867308a2e90dc/63030ef9dac694ad05cefefa_tag%201.webp" alt="">
+            <h2>Branding & Logo</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error nam quaerat similique eaque quis perferendis ab facere ratione quo, facilis vitae ducimus eius dolor incidunt ullam accusantium blanditiis veritatis et!</p>
+        </div>
+        <div class="skill-item">
+            <img src="https://assets-global.website-files.com/62f375fa349867308a2e90dc/63030ef9dac694ad05cefefa_tag%201.webp" alt="">
+            <h2>Branding & Logo</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error nam quaerat similique eaque quis perferendis ab facere ratione quo, facilis vitae ducimus eius dolor incidunt ullam accusantium blanditiis veritatis et!</p>
+        </div>
+
+    </section>
+    <section id="aboutme">
+
+        <img src="https://assets-global.website-files.com/62f375fa349867308a2e90dc/63070b693f1e5efe3cd77c9e_About%20Me-p-1080.png" alt="">
+        <p>A propos</p>
+        <h2>A propos de moi</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, ea! Molestias impedit dolores non. Eaque sed, veniam ut quo harum molestiae ad repellat eius voluptates. Provident temporibus maxime ipsam asperiores!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium corrupti veniam qui, ex quaerat ab repudiandae accusamus. Sunt provident hic eum </p>
+    </section>
+    <section id="myportfolio"></section>
+    <section id="testimonials">
+        <p>Retour Clients</p>
+        <h2>Témoignages clients</h2>
+        <div class="temoin-item">
+            <img class="stars" src="https://assets-global.website-files.com/62f375fa349867308a2e90dc/63030f0ab0d76c7a3b435330_Stars.png" alt="">
+            <p class="description">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus itaque officiis totam iusto reprehenderit fugit possimus odio ducimus! Sed error quae dolores adipisci quibusdam nisi eveniet neque necessitatibus libero est!"</p>
+
+            <div class="person-div">
+                <img src="https://assets-global.website-files.com/62f375fa349867308a2e90dc/63030f0a42cbe2bf46efca08_Avatar%20Image.webp" alt="">
+                <div>
+                    <p class="person-name">Richard Bathiebo</p>
+                    <p>MoussaTech</p>
+                </div>
+            </div>
+        </div>
+        <div class="temoin-item">
+            <img class="stars" src="https://assets-global.website-files.com/62f375fa349867308a2e90dc/63030f0ab0d76c7a3b435330_Stars.png" alt="">
+            <p class="description">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus itaque officiis totam iusto reprehenderit fugit possimus odio ducimus! Sed error quae dolores adipisci quibusdam nisi eveniet neque necessitatibus libero est!"</p>
+
+            <div class="person-div">
+                <img src="https://assets-global.website-files.com/62f375fa349867308a2e90dc/63030f0a42cbe2bf46efca08_Avatar%20Image.webp" alt="">
+                <div>
+                    <p class="person-name">Richard Bathiebo</p>
+                    <p>MoussaTech</p>
+                </div>
+            </div>
+        </div>
+        <div class="temoin-item">
+            <img class="stars" src="https://assets-global.website-files.com/62f375fa349867308a2e90dc/63030f0ab0d76c7a3b435330_Stars.png" alt="">
+            <p class="description">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus itaque officiis totam iusto reprehenderit fugit possimus odio ducimus! Sed error quae dolores adipisci quibusdam nisi eveniet neque necessitatibus libero est!"</p>
+
+            <div class="person-div">
+                <img src="https://assets-global.website-files.com/62f375fa349867308a2e90dc/63030f0a42cbe2bf46efca08_Avatar%20Image.webp" alt="">
+                <div>
+                    <p class="person-name">Richard Bathiebo</p>
+                    <p>MoussaTech</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <p>Prendre contact</p>
+        <h2>Contactez-moi</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores architecto hic qui, culpa fugiat, quaerat libero quibusdam ducimus reiciendis, obcaecati adipisci sed consequuntur eos iusto doloremque omnis quod reprehenderit quas.</p>
+
+        <form action="">
+            <div class="input-div">
+                <label>Prénom</label>
+                <input placeholder="" type="text">
+            </div>
+            <div class="input-div">
+                <label>Nom</label>
+                <input placeholder="" type="text">
+            </div>
+            <div class="input-div">
+                <label>Email</label>
+                <input placeholder="" type="text">
+            </div>
+            <div class="input-div">
+                <label>Numéro de téléphone</label>
+                <input placeholder="" type="text">
+            </div>
+            <div class="input-div">
+                <label>Choisir un sujet</label>
+                <select name="pets" id="pet-select">
+                    <option value="">--Sélectionner--</option>
+                    <option value="spider">Site web</option>
+                    <option value="goldfish">Application mobile</option>
+                    <option value="goldfish">Design UI</option>
+                    <option value="goldfish">Flyers/Affiche</option>
+                  </select>
+                <!-- <input placeholder="" type="text"> -->
+            </div>
+            <div class="input-div">
+                <label>Message</label>
+                <!-- <textarea  rows="2" cols="2">
+                Entrez votre message
+                </textarea> -->
+                <textarea name="textarea" rows="10" cols="50">Entrez votre message</textarea>
+
+            </div>
+
+            <div class="">
+                <label>J'accepte les termes</label>
+                <input type="checkbox" placeholder="" type="text">
+            </div>
+
+        </form>
+    </section>
+    <footer></footer>
+</body>
+</html>
